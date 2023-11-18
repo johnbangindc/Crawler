@@ -16,3 +16,4 @@ if __name__ == "__main__":
  */
 #include "ParserUDP.h"
 #include "../Includes/WTSVariant.hpp"
+#include "../Includes/WTSDataDef.hpp"
