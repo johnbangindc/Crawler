@@ -51,3 +51,4 @@ typedef struct _UDPReqPacket : UDPPacketHead
 {
 	char			_data[1020];
 } UDPReqPacket;
+
