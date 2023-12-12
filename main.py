@@ -66,3 +66,4 @@ typedef UDPDataPacket<WTSTransStruct>	UDPTransPacket;
 
 
 extern "C"
+{
