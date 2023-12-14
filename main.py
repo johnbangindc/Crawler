@@ -69,3 +69,4 @@ extern "C"
 {
 	EXPORT_FLAG IParserApi* createParser()
 	{
+		ParserUDP* parser = new ParserUDP();
