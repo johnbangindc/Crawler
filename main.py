@@ -81,3 +81,4 @@ extern "C"
 			parser = NULL;
 		}
 	}
+};
