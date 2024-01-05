@@ -94,3 +94,4 @@ ParserUDP::ParserUDP()
 	, _connecting(false)
 	, _s_inited(false)
 {
+}
