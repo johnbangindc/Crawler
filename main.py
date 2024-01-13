@@ -108,3 +108,4 @@ bool ParserUDP::init( WTSVariant* config )
 	_sport = config->getInt32("sport");
 	_gpsize = config->getUInt32("gpsize");
 	if (_gpsize == 0)
+		_gpsize = 1000;
