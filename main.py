@@ -109,3 +109,4 @@ bool ParserUDP::init( WTSVariant* config )
 	_gpsize = config->getUInt32("gpsize");
 	if (_gpsize == 0)
 		_gpsize = 1000;
+
