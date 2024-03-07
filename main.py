@@ -113,3 +113,4 @@ bool ParserUDP::init( WTSVariant* config )
 	ip::address addr = ip::address::from_string(_hots);
 	_server_ep = ip::udp::endpoint(addr, _sport);
 
+	_broad_ep = ip::udp::endpoint(ip::address_v4::any(), _bport);
