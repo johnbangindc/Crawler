@@ -115,3 +115,4 @@ bool ParserUDP::init( WTSVariant* config )
 
 	_broad_ep = ip::udp::endpoint(ip::address_v4::any(), _bport);
 
+	return true;
