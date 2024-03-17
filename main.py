@@ -118,3 +118,4 @@ bool ParserUDP::init( WTSVariant* config )
 	return true;
 }
 
+void ParserUDP::release()
