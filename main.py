@@ -123,3 +123,4 @@ void ParserUDP::release()
 	
 }
 
+bool ParserUDP::reconnect(uint32_t flag /* = 3 */)
