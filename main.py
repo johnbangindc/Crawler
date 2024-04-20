@@ -127,3 +127,4 @@ bool ParserUDP::reconnect(uint32_t flag /* = 3 */)
 {
 	if(flag & 1)
 	{//建立广播通道
+		if (_b_socket != NULL)
