@@ -130,3 +130,4 @@ bool ParserUDP::reconnect(uint32_t flag /* = 3 */)
 		if (_b_socket != NULL)
 		{
 			_b_socket->close();
+			delete _b_socket;
