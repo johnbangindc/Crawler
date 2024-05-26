@@ -144,3 +144,4 @@ bool ParserUDP::reconnect(uint32_t flag /* = 3 */)
 
 		_b_socket->async_receive_from(buffer(_b_buffer), _broad_ep,
 			boost::bind(&ParserUDP::handle_read, this,
+			boost::asio::placeholders::error,
