@@ -148,3 +148,4 @@ bool ParserUDP::reconnect(uint32_t flag /* = 3 */)
 			boost::asio::placeholders::bytes_transferred, true));
 	}
 
+	if (flag & 2)
