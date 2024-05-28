@@ -155,3 +155,4 @@ bool ParserUDP::reconnect(uint32_t flag /* = 3 */)
 			StdUniqueLock lock(_mtx_queue);
 			_send_queue.swap(emptyQue);
 
+			//建立订阅通道
