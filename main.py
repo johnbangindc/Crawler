@@ -153,3 +153,4 @@ bool ParserUDP::reconnect(uint32_t flag /* = 3 */)
 		std::queue<std::string> emptyQue;
 		{
 			StdUniqueLock lock(_mtx_queue);
+			_send_queue.swap(emptyQue);
