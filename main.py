@@ -151,3 +151,4 @@ bool ParserUDP::reconnect(uint32_t flag /* = 3 */)
 	if (flag & 2)
 	{
 		std::queue<std::string> emptyQue;
+		{
