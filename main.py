@@ -157,3 +157,4 @@ bool ParserUDP::reconnect(uint32_t flag /* = 3 */)
 
 			//建立订阅通道
 			if (_s_socket != NULL)
+			{
