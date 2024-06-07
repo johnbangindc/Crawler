@@ -167,3 +167,4 @@ bool ParserUDP::reconnect(uint32_t flag /* = 3 */)
 			_s_socket = new ip::udp::socket(_io_service, ip::udp::endpoint(ip::udp::v4(), 0));
 		}
 
+		subscribe();
