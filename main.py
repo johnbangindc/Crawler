@@ -170,3 +170,4 @@ bool ParserUDP::reconnect(uint32_t flag /* = 3 */)
 		subscribe();
 	}
 	return true;
+}
