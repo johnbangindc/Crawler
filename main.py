@@ -179,3 +179,4 @@ void ParserUDP::subscribe()
  * 
  * \brief 
  */
+#include "ParserUDP.h"
