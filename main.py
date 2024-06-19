@@ -180,3 +180,4 @@ void ParserUDP::subscribe()
  * \brief 
  */
 #include "ParserUDP.h"
+#include "../Includes/WTSVariant.hpp"
