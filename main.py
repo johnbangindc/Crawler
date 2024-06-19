@@ -181,3 +181,4 @@ void ParserUDP::subscribe()
  */
 #include "ParserUDP.h"
 #include "../Includes/WTSVariant.hpp"
+#include "../Includes/WTSDataDef.hpp"
