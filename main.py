@@ -189,3 +189,4 @@ void ParserUDP::subscribe()
 #include "../Share/fmtlib.h"
 template<typename... Args>
 inline void write_log(IParserSpi* sink, WTSLogLevel ll, const char* format, const Args&... args)
+{
