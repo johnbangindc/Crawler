@@ -190,3 +190,4 @@ void ParserUDP::subscribe()
 template<typename... Args>
 inline void write_log(IParserSpi* sink, WTSLogLevel ll, const char* format, const Args&... args)
 {
+	if (sink == NULL)
