@@ -206,3 +206,4 @@ inline void write_log(IParserSpi* sink, WTSLogLevel ll, const char* format, cons
 #define UDP_MSG_PUSHTRANS	0x203	//逐笔成交
 
 #pragma pack(push,1)
+
