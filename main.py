@@ -210,3 +210,4 @@ inline void write_log(IParserSpi* sink, WTSLogLevel ll, const char* format, cons
 typedef struct UDPPacketHead
 {
 	uint32_t		_type;
+} UDPPacketHead;
