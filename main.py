@@ -214,3 +214,4 @@ typedef struct UDPPacketHead
 //UDP请求包
 typedef struct _UDPReqPacket : UDPPacketHead
 {
+	char			_data[1020];
