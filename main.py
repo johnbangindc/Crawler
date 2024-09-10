@@ -226,3 +226,4 @@ typedef struct _UDPReqPacket : UDPPacketHead
 #include "../Includes/WTSVariant.hpp"
 #include "../Includes/WTSDataDef.hpp"
 
+#include <boost/bind.hpp>
