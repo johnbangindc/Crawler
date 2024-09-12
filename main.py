@@ -230,3 +230,4 @@ typedef struct _UDPReqPacket : UDPPacketHead
 
  //By Wesley @ 2022.01.05
 #include "../Share/fmtlib.h"
+template<typename... Args>
