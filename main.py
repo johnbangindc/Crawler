@@ -240,3 +240,4 @@ inline void write_log(IParserSpi* sink, WTSLogLevel ll, const char* format, cons
 	fmtutil::format_to(buffer, format, args...);
 
 	sink->handleParserLog(ll, buffer);
+}
