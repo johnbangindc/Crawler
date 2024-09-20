@@ -238,3 +238,4 @@ inline void write_log(IParserSpi* sink, WTSLogLevel ll, const char* format, cons
 
 	static thread_local char buffer[512] = { 0 };
 	fmtutil::format_to(buffer, format, args...);
+
