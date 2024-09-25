@@ -251,3 +251,4 @@ inline void write_log(IParserSpi* sink, WTSLogLevel ll, const char* format, cons
 #pragma pack(push,1)
 
 typedef struct UDPPacketHead
+{
