@@ -254,3 +254,4 @@ typedef struct UDPPacketHead
 {
 	uint32_t		_type;
 } UDPPacketHead;
+//UDP请求包
