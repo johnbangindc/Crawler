@@ -270,3 +270,4 @@ struct UDPDataPacket : UDPPacketHead
 typedef UDPDataPacket<WTSTickStruct>	UDPTickPacket;
 typedef UDPDataPacket<WTSOrdQueStruct>	UDPOrdQuePacket;
 typedef UDPDataPacket<WTSOrdDtlStruct>	UDPOrdDtlPacket;
+typedef UDPDataPacket<WTSTransStruct>	UDPTransPacket;
