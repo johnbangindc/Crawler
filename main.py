@@ -286,3 +286,4 @@ extern "C"
 		if (NULL != parser)
 		{
 			delete parser;
+			parser = NULL;
