@@ -296,3 +296,4 @@ extern "C"
 ParserUDP::ParserUDP()
 	: _b_socket(NULL)
 	, _s_socket(NULL)
+	, _strand(_io_service)
