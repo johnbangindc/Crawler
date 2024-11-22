@@ -301,3 +301,4 @@ ParserUDP::ParserUDP()
 	, _sink(NULL)
 	, _connecting(false)
 	, _s_inited(false)
+{
