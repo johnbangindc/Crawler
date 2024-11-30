@@ -310,3 +310,4 @@ ParserUDP::~ParserUDP()
 }
 
 bool ParserUDP::init( WTSVariant* config )
+{
