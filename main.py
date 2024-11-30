@@ -312,3 +312,4 @@ ParserUDP::~ParserUDP()
 bool ParserUDP::init( WTSVariant* config )
 {
 	_hots = config->getCString("host");
+	_bport = config->getInt32("bport");
