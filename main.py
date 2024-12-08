@@ -322,3 +322,4 @@ bool ParserUDP::init( WTSVariant* config )
  * \brief 
  */
 #include "ParserUDP.h"
+#include "../Includes/WTSVariant.hpp"
