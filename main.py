@@ -344,3 +344,4 @@ inline void write_log(IParserSpi* sink, WTSLogLevel ll, const char* format, cons
 #define UDP_MSG_SUBSCRIBE	0x100
 #define UDP_MSG_PUSHTICK	0x200
 #define UDP_MSG_PUSHORDQUE	0x201	//委托队列
+#define UDP_MSG_PUSHORDDTL	0x202	//委托明细
