@@ -355,3 +355,4 @@ typedef struct UDPPacketHead
 } UDPPacketHead;
 //UDP请求包
 typedef struct _UDPReqPacket : UDPPacketHead
+{
