@@ -360,3 +360,4 @@ typedef struct _UDPReqPacket : UDPPacketHead
 } UDPReqPacket;
 
 //UDPTick数据包
+template <typename T>
