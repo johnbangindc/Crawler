@@ -362,3 +362,4 @@ typedef struct _UDPReqPacket : UDPPacketHead
 //UDPTick数据包
 template <typename T>
 struct UDPDataPacket : UDPPacketHead
+{
