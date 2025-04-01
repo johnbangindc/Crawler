@@ -366,3 +366,4 @@ struct UDPDataPacket : UDPPacketHead
 	T			_data;
 };
 #pragma pack(pop)
+typedef UDPDataPacket<WTSTickStruct>	UDPTickPacket;
