@@ -371,3 +371,4 @@ typedef UDPDataPacket<WTSOrdQueStruct>	UDPOrdQuePacket;
 typedef UDPDataPacket<WTSOrdDtlStruct>	UDPOrdDtlPacket;
 typedef UDPDataPacket<WTSTransStruct>	UDPTransPacket;
 
+
