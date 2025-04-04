@@ -372,3 +372,4 @@ typedef UDPDataPacket<WTSOrdDtlStruct>	UDPOrdDtlPacket;
 typedef UDPDataPacket<WTSTransStruct>	UDPTransPacket;
 
 
+extern "C"
