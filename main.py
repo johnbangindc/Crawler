@@ -375,3 +375,4 @@ typedef UDPDataPacket<WTSTransStruct>	UDPTransPacket;
 extern "C"
 {
 	EXPORT_FLAG IParserApi* createParser()
+	{
