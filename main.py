@@ -388,3 +388,4 @@ extern "C"
 			parser = NULL;
 		}
 	}
+};
