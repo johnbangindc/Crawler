@@ -393,3 +393,4 @@ extern "C"
 
 
 ParserUDP::ParserUDP()
+	: _b_socket(NULL)
