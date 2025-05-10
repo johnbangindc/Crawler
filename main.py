@@ -410,3 +410,4 @@ ParserUDP::~ParserUDP()
 
 bool ParserUDP::init( WTSVariant* config )
 {
+	_hots = config->getCString("host");
