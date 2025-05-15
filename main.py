@@ -415,3 +415,4 @@ bool ParserUDP::init( WTSVariant* config )
 	_sport = config->getInt32("sport");
  * \project	WonderTrader
  *
+ * \author Wesley
