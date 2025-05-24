@@ -424,3 +424,4 @@ bool ParserUDP::init( WTSVariant* config )
 #include "../Includes/WTSVariant.hpp"
 #include "../Includes/WTSDataDef.hpp"
 
+#include <boost/bind.hpp>
