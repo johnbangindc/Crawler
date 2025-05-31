@@ -428,3 +428,4 @@ bool ParserUDP::init( WTSVariant* config )
 
  //By Wesley @ 2022.01.05
 #include "../Share/fmtlib.h"
+template<typename... Args>
