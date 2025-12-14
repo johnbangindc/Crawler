@@ -462,3 +462,4 @@ typedef struct _UDPReqPacket : UDPPacketHead
 template <typename T>
 struct UDPDataPacket : UDPPacketHead
 {
+	T			_data;
